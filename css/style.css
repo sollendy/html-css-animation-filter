@@ -99,8 +99,8 @@
     animation-timing-function: linear;
 }
 @keyframes mezzo-giro{
-    from {transform: rotate(0deg);}
-    to {transform: rotate(360deg);}
+    from {transform: rotate(360deg);}
+    to {transform: rotate(0deg);}
 }
 .ex-11-icon:hover{
     animation-name: giro-mezzo;
@@ -155,10 +155,21 @@
 }
 .ex-12-bottom-white{
     animation-name: vado-sinistra;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;   
 }
 @keyframes vado-sinistra{
     25% {right: 120px;}
+}
+.ex-13-top-white{
+    animation-name: rivado-destra;
+    animation-duration: 4s;
+    animation-iteration-count: ;
+    animation-timing-function: linear;
+}
+@keyframes rivado-destra{
+    0% {}
+    25%{top: 0; left: 170px;}
+    50%{top: 70px;}
 }
