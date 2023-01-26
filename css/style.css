@@ -87,8 +87,8 @@
 @keyframes girotondo{
     /* 0% {left: 0px; top: 0px;}
     25% {left: 30px; top: 0px;} */
-    from {transform: rotate(0deg);}
-    to {transform: rotate(360deg);}
+    from {transform: rotate(360deg);}
+    to {transform: rotate(0deg);}
 }
 .ex-11-icon {
     font-size: 60px;
@@ -165,11 +165,12 @@
 .ex-13-top-white{
     animation-name: rivado-destra;
     animation-duration: 4s;
-    animation-iteration-count: ;
+    animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 @keyframes rivado-destra{
     0% {}
-    25%{top: 0; left: 170px;}
-    50%{top: 70px;}
+    25% {left: 199px;}
+    50% {top: 70px;}
+    75% {right: 170px;}
 }
