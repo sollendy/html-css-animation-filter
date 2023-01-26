@@ -169,8 +169,40 @@
     animation-timing-function: linear;
 }
 @keyframes rivado-destra{
-    0% {}
-    25% {left: 199px;}
-    50% {top: 70px;}
-    75% {right: 170px;}
+    /* 0% {
+
+    }
+    25% {
+        left: 199px;
+    }
+    50% {
+        top: 70px;
+    }
+    75% {
+        right: 170px;
+    } */
+    /* 0% {
+        left: 10%;
+        top: -10px;
+    }
+    30% {
+        left: calc(100% - 30px);
+        top: -10px;
+    }
+    45% {
+        left: calc(100% - 30px);
+        top: 100%;
+    }
+    75% {
+        left: 0;
+        top: 100%;
+    }
+    90% {
+        left: -15px;
+        top: -10px;
+    }
+    100% {
+        left: 10%;
+        top: -10px;
+    } */
 }
