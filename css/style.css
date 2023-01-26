@@ -80,12 +80,15 @@
     font-size: 60px;
     position: relative;
     animation-name: girotondo;
-    animation-duration: 4s;
+    animation-duration: 3s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 @keyframes girotondo{
     /* 0% {left: 0px; top: 0px;}
     25% {left: 30px; top: 0px;} */
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
 }
 .ex-11-icon {
     font-size: 60px;
